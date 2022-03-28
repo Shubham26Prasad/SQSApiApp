@@ -1,0 +1,22 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Release",
+    "framework"     : "net6.0",
+    "self-contained" : true,
+    "application"    : "SQSAPIApplication",
+    "environment"    : "SQSAPIApplication-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-011aec72db95759f7\";\"aws:ec2:vpc,Subnets\"=\"subnet-01b2d800570e3a2c9\"",
+    "solution-stack"       : "64bit Windows Server Core 2019 v2.9.0 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "sqsapiapplication-devv",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-SQSAPIApplication-dev",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx",
+    "app-path"             : "/",
+    "iis-website"          : "Default Web Site"
+}

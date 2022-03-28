@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kvMqzAa6EjQ1rXwb4inTLqaMGRe/zYYnjROl3qsxvF4=",
+  "Source": "SQSAPIApplication",
+  "BasePath": "_content/SQSAPIApplication",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
